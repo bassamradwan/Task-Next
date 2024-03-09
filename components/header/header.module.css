@@ -1,0 +1,28 @@
+.myIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-image: linear-gradient(50deg, #016dea, #fa0101);
+
+  padding: 10px;
+}
+.iconWhite {
+  color: white;
+}
+
+.myPosion {
+  display: flex;
+  position: absolute;
+  bottom: 70%;
+  left: 50%;
+  background-color: aliceblue;
+  border-radius: 200px;
+  border-image: linear-gradient(30deg, #f6613c, #082de3);
+  border-image-slice: 1;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}

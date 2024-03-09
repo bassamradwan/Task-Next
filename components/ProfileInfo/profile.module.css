@@ -1,0 +1,95 @@
+.container {
+  padding: 15px;
+  background-image: linear-gradient(50deg, #016dea, #fa0101);
+}
+.CardInfo {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10%;
+}
+.icon {
+  background-image: linear-gradient(50deg, #016dea, #fa0101);
+}
+.verticalLine {
+  width: 1px;
+  background-color: black;
+}
+.button {
+  color: white;
+  background-image: linear-gradient(50deg, #fa0101, #9f7c7c);
+  border-radius: 20px;
+}
+.containerTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.borderColors {
+  width: 10vw;
+  height: 30vh;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, red, blue) 5;
+  background-clip: padding-box;
+  background-color: transparent;
+  border-radius: 50%;
+  margin: 5px;
+}
+.hrColors {
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to right, red, blue);
+}
+.containerT {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, red, blue) 5;
+  background-clip: padding-box;
+  background-color: transparent;
+  border-radius: 50%;
+  text-align: center;
+  margin: 5px;
+}
+.topSection,
+.middleSection,
+.bottomSection {
+  text-align: center;
+}
+.box hr {
+  margin: 0 0;
+  width: 100%;
+}
+.iconLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: white;
+  background-color: #016dea;
+  margin: 5px;
+  padding: 7px;
+}
+.iconRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: white;
+  background-color: #fa0101;
+  margin: 5px;
+  padding: 7px;
+}
+.buttonEdit {
+    width: 12vw;
+    color: white;
+    background-image: linear-gradient(50deg, #fa0101, #016dea);
+    border-radius: 20px;
+    margin: 10px;
+   
+  }

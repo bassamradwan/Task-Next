@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-image:linear-gradient(50deg,blue,red);
+    color: white;
+}
+.customHr{
+  height: 3px;
+  color: white;
+}
+.store{
+width: 10vw;
+margin: 10px;
+}
